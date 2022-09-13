@@ -111,4 +111,26 @@ buttom.addEventListener('click', () =>{
     this.location ="https://phipricefx.com/"
 })
 
+const video = document.querySelector('.presentacion');
 
+video.addEventListener("ended", function(){
+    let email = prompt("Escribe de que tamaño quiere q se arme su porro");
+    console.log(email);
+
+    if(mail == null || email ==""){
+        console.log("sin datos");
+    } else {
+        console.log(email);
+    }
+
+
+
+    alert("Desea un porrito?");
+    let resultado = confirm("Desea otro porrito?");
+    console.log(resultado);
+    if (resultado){
+        window.location = "https://www.phipricefx.com/";
+    } else{
+        window.location = "https://www.google.com/";
+    }
+});
