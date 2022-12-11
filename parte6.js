@@ -61,7 +61,7 @@ console.log(platos)
 
 //**** Ordenar un arreglo *****/
 
-var platillos = [ "ceviche", "tacos", "pasta"];
+var platillos = [ "ceviche", "tacos", "pasta", "arroz"];
 
 console.log('Antes: ', platillos);
 
